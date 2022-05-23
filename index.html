@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="tbienv">Bienvenidos InstaPet<br/>Sientase libre de escoger lo que nececite</h1>
+    <hr>
+    <p><span id="p1_t">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A placeat laborum quaerat,<br> non quo sapiente accusantium 
+        ipsa maxime obcaecati et reprehenderit impedit,<br>  nihil libero harum. Hic quos fuga nulla inventore!
+    </span></p>
+            <!--FORM-->
+        <form  action="https://formspree.io/f/mgeddevr"
+    method="POST">
+        <p>
+            <label>
+                Nombre: 
+                <input type="text" placeholder="Nombre de mascota " name="nombre" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Edad: 
+                <input type="number" placeholder="Edad mascota" name="edad" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Email: 
+                <input type="email" placeholder="Email" name="correo" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Contraseña: 
+                <input type="password" placeholder="Password" name="password" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Color de la mascota:   
+                <input type="color" name="color" required>
+            </label>
+        </p>
+        <p>
+            <label for="consultas">Dejenos su consulta</label>
+        </p>
+        <textarea name="consultas"
+            rows="10" 
+            cols="70"
+            placeholder="Dejanos tu consulta">
+        </textarea>
+        </p>    
+        <br>
+        <input type="checkbox" name="terminos" id="tyc" required>
+        <label for="terms">Terminos y condiciones</label>
+        <br>
+        <!--boton-->
+        <input id="benviar" type="submit" value="Enviar">
+    </form>
+    <hr>
+    <!--link externos-->
+    <div id="vid_index">
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/Ez6Yrnh4w6k"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media;
+            gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>       
+        </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d261641.49378640957!2d-71.1885858!3d-34.9519284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9664578acd232bf3%3A0xddc7c9d8951b6dc9!2sCl%C3%ADnica%20Veterinaria%20Pets%20Friends!5e0!3m2!1sen!2scl!4v1653318019652!5m2!1sen!2scl" 
+            width="560" height="315" style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>    
+</body>
+</html>

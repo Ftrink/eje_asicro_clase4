@@ -1,0 +1,12 @@
+body{
+    background-image: url(./fondo.jpg);
+    background-size:cover;
+}
+#tbienv{
+    text-align: center;
+}
+#p1_t{
+    font-size: large;
+    background-color: rgb(221, 162, 73);
+    ;
+}
